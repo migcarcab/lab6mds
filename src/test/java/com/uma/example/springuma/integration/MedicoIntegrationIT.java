@@ -71,4 +71,7 @@ public class MedicoIntegrationIT extends AbstractIntegration {
                 mockMvc.perform(get("/medico/" + id))
                                 .andExpect(status().isInternalServerError());
         }
+
+
+
 }
